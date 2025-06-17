@@ -1,5 +1,5 @@
 {
-    "name": "nwidart/public",
+    "name": "nwidart/visitors",
     "description": "",
     "authors": [
         {
@@ -17,14 +17,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Public\\": "app/",
-            "Modules\\Public\\Database\\Factories\\": "database/factories/",
-            "Modules\\Public\\Database\\Seeders\\": "database/seeders/"
+            "Modules\\Visitors\\": "app/",
+            "Modules\\Visitors\\Database\\Factories\\": "database/factories/",
+            "Modules\\Visitors\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Modules\\Public\\Tests\\": "tests/"
+            "Modules\\Visitors\\Tests\\": "tests/"
         }
     }
 }

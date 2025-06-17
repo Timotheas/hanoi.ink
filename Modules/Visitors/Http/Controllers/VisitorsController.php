@@ -1,18 +1,18 @@
 <?php
 
-namespace Modules\Public\Http\Controllers;
+namespace Modules\Visitors\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class PublicController extends Controller
+class VisitorsController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('public::index');
+        return view('visitors::index');
     }
 
     /**
@@ -20,7 +20,7 @@ class PublicController extends Controller
      */
     public function create()
     {
-        return view('public::create');
+        return view('visitors::create');
     }
 
     /**
@@ -33,7 +33,7 @@ class PublicController extends Controller
      */
     public function show($id)
     {
-        return view('public::show');
+        return view('visitors::show');
     }
 
     /**
@@ -41,7 +41,7 @@ class PublicController extends Controller
      */
     public function edit($id)
     {
-        return view('public::edit');
+        return view('visitors::edit');
     }
 
     /**

@@ -1,3 +1,6 @@
 {
-    "Public": true
+    "Public": true,
+    "Frontend": true,
+    "Website": true,
+    "Visitors": true
 }
