@@ -1,0 +1,8 @@
+Wanneer stop je Vite?
+Alleen als je klaar bent met ontwikkelen (of als je de pc uitzet).
+
+Opnieuw starten kan altijd met:
+
+bash
+Copy code
+npm run dev
